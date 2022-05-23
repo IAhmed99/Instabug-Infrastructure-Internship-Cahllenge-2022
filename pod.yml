@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: instabug-cahllenge
+  labels:
+     name: instabug-cahllenge
+spec:
+  containers:
+    - name: instabug-cahllenge
+      image: iahmed99/instabug-cahllenge:latest
+      ports:
+        - containerPort: 80
